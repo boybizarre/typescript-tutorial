@@ -1,15 +1,11 @@
 "use strict";
-var logged;
-var sendAnalytics = function (data) {
+let logged;
+const sendAnalytics = (data) => {
     console.log(data);
 };
 sendAnalytics('The data...');
-var add = function () {
-    var numbers = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        numbers[_i] = arguments[_i];
-    }
-    return numbers.reduce(function (currentResult, currentValue) {
+const add = (...numbers) => {
+    return numbers.reduce((currentResult, currentValue) => {
         return currentResult + currentValue;
     }, 0);
 };

@@ -6,7 +6,7 @@ var Role;
     Role["readonly"] = "reader";
 })(Role || (Role = {}));
 ;
-var person = {
+const person = {
     name: 'Olakunle',
     age: 25,
     hobbies: ['Reading', 'Skipping', 'Cooking'],
@@ -15,13 +15,12 @@ var person = {
 if (person.role === Role.readonly)
     console.log('This is the reader');
 console.log(person);
-var favoriteActivities;
+let favoriteActivities;
 favoriteActivities = ['Smoking', 'Jumping', 'Running'];
-for (var hobby in person.hobbies) {
+for (let hobby in person.hobbies) {
     console.log(favoriteActivities[hobby]);
 }
-for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
+for (let hobby of person.hobbies) {
     console.log(hobby.toUpperCase());
 }
 console.log(person);

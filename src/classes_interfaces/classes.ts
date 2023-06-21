@@ -120,3 +120,11 @@ accounting.printReports();
 // const accountingCopy = { name: 'Dummy', describe: accounting.describe}
 
 // accountingCopy.describe();
+
+
+// private and public access modifiers
+// shorthand initialization, readonly properties
+// inheritance and overriding properties
+// getters and setters, static methods and properties
+// abstract classes, singletons and private constructors
+// 

@@ -21,7 +21,7 @@
 
 interface Name {
   readonly name?: string;
-  city?: string;
+  city?: string; // optional parameter
 }
 
 interface Greetings extends Name {
@@ -65,3 +65,7 @@ addNums = (number1: number, number2: number) => {
   return number1 + number2;
 }
 
+
+// interface as functions, using interfaces with classes
+// optional parameters
+// extending interfaces
