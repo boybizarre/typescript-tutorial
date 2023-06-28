@@ -109,7 +109,7 @@ const createCourseGoal = (
   description: string,
   completeUntil: Date
 ): CourseGoal => {
-  let courseGoal: Partial<CourseGoal> = {}; // tells typescript that the variable will still end up being of type courseGoal at the end of the day. 
+  let courseGoal: Partial<CourseGoal> = {}; // tells typescript that the variable will still end up being of type courseGoal at the end of the day.
   courseGoal.title = title;
   courseGoal.description = description;
   courseGoal.completeUntil = completeUntil;
@@ -122,4 +122,3 @@ const namesArr: Readonly<string[]> = ['Max', 'McGuire'];
 
 // namesArr.push('Fred');
 // namesArr.pop();
-
