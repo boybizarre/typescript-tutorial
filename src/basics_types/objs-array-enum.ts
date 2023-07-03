@@ -14,6 +14,7 @@
 // }
 
 enum Role { admin = 2, author = 'author', readonly = 'reader' };
+// enum Roles { admin , author , readonly  };
 
 const person = {
   name: 'Olakunle',
